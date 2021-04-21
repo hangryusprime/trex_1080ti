@@ -1,13 +1,14 @@
 {
-    "mt": "5",
-    "pl": "70",
-    "cclock": "225",
-    "mclock": "0",
-    "fan": "60",
+    "mt": "6",
+    "pl": "80",
+    "cclock": "220",
+    "mclock": "525",
+    "fan": "70",
     "autoupdate": true,
-    "cpu-priority": 3,
+    "cpu-priority": 2,
     "time-limit": 14400,
     "gpu-report-interval": 180,
+    "validate-shares": true,
     "pools": [
         {
             "pass": "x",
@@ -60,6 +61,5 @@
     "temperature-color": "67,77",
     "temperature-limit": 0,
     "temperature-start": 0,
-    "timeout": 300,
-    "validate-shares": false
+    "timeout": 300
 }
