@@ -1,13 +1,13 @@
 {
     "mt": "6",
     "pl": "80",
-    "cclock": "220",
-    "mclock": "525",
+    "cclock": "225",
+    "mclock": "-200",
     "fan": "70",
     "autoupdate": true,
     "cpu-priority": 2,
     "time-limit": 14400,
-    "gpu-report-interval": 180,
+    "gpu-report-interval": 300,
     "validate-shares": true,
     "pools": [
         {
@@ -20,9 +20,9 @@
     "ab-indexing": false,
     "coin": "eth",
     "algo": "ethash",
-    "api-bind-http": "127.0.0.1:4067",
+    "api-bind-http": "0.0.0.0:4067",
     "api-bind-telnet": "127.0.0.1:4068",
-    "api-read-only": false,
+    "api-read-only": true,
     "back-to-main-pool-sec": 600,
     "dag-build-mode": "0",
     "devices": "0",
